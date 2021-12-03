@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #233649;
+    height: 100vh;
+}
+
+.nav-bar, #name {
+    display: flex;
+    position: absolute;
+}
+
+.nav-bar .list {
+    display: inline;
+    float: right;
+}
+
+.nav-bar, ul {
+    display: block;
+    background-color: #A29655;
+}
+
+.nav-bar, li, a {
+    padding: 14px 16px;
+    color: #fff;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+}
+
+.nav-bar, a {
+    text-decoration: none  ;
+}
+
+.nav-bar {
+    box-sizing: border-box;
+}
+
+.box-01,img {
+    padding: 50px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.hotel-information p {
+    display: block;
+    float: left;
+}
+
+.footer, p {
+    color: #fff;
+}
+
+.footer {
+    width: 100%;
+    position: static;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 1rem 0;
+}
+
+.status {
+    
+    padding-top: 6rem;
+}
+
+.hotel-information p{
+    margin-bottom: 1rem;
+}

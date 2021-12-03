@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-top: 5rem;
+}
+
+.main {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.main, table tr td{
+    padding: 10px 15px;
+}
+
+.main a {
+    color: black;
+}

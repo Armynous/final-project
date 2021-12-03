@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-bar, #name {
+    display: flex;
+    position: absolute;
+}
+
+.nav-bar .list {
+    display: inline;
+    float: right;
+}
+
+.nav-bar, ul {
+    display: block;
+    background-color: #A29655;
+}
+
+.nav-bar, li, a {
+    padding: 14px 16px;
+    color: #fff;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+}
+
+.nav-bar, a {
+    text-decoration: none  ;
+}
+
+.nav-bar {
+    box-sizing: border-box;
+}
